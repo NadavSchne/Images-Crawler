@@ -3,7 +3,10 @@ const cheerio = require('cheerio');
 const program = require('commander');
 const fs = require('fs');
 
-program                                   ////// node crawlerSolely.js https://www.google.com 1 //////to run
+//This file is the excersice without the additinal 'MongoDB' and Server & Client code.
+///to run this file: 'node crawlerSolely.js https://www.google.com 1'
+
+program      
   .arguments('<url> <depth>')
   .action(async (url, depth) => {
     const results = await crawl(url, depth);
