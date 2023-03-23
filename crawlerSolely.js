@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const program = require('commander');
 const fs = require('fs');
 
-//This file is the excersice without the additinal 'MongoDB' and Server & Client code.
+//This file is the exercise without the additinal 'MongoDB' and Server & Client code.
 ///to run this file: 'node crawlerSolely.js https://www.google.com 1'
 
 program      
